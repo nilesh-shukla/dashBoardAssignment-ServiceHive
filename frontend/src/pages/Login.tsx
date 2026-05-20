@@ -133,22 +133,7 @@ export const Login: React.FC = () => {
             </button>
           </form>
 
-          {/* Quick test parameters */}
-          <div className="mt-6 border-t border-slate-900 pt-4">
-            <p className="text-[10px] uppercase font-bold tracking-wider text-slate-500 mb-2">Test Accounts:</p>
-            <div className="grid grid-cols-2 gap-2 text-[10px] text-slate-400">
-              <div className="rounded-lg border border-slate-800 bg-slate-900/30 p-2">
-                <span className="font-semibold text-rose-400 block mb-0.5">Admin Account</span>
-                <span>admin@leads.com</span><br/>
-                <span>Pass: admin123</span>
-              </div>
-              <div className="rounded-lg border border-slate-800 bg-slate-900/30 p-2">
-                <span className="font-semibold text-brand-400 block mb-0.5">Sales Account</span>
-                <span>sales@leads.com</span><br/>
-                <span>Pass: sales123</span>
-              </div>
-            </div>
-          </div>
+          {/* Test accounts removed for production */}
         </div>
 
         {/* Footnote links */}

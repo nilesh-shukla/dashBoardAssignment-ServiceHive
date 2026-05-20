@@ -9,7 +9,7 @@ import LeadCard from "../components/LeadCard";
 import LeadForm from "../components/LeadForm";
 import MainLayout from "../layouts/MainLayout";
 import { Lead, PaginationInfo } from "../types/lead";
-import { Download, Plus, RefreshCw, X, FileSpreadsheet, Smile } from "lucide-react";
+import { Download, Plus, RefreshCw, X, FileSpreadsheet } from "lucide-react";
 
 export const Dashboard: React.FC = () => {
   const { user } = useAuthStore();

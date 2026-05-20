@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuthStore } from "../store/authStore";
-import { LogOut, LayoutDashboard, UserCheck, ShieldAlert } from "lucide-react";
+import { LogOut, UserCheck, ShieldAlert } from "lucide-react";
 
 export const Navbar: React.FC = () => {
   const { user, logout } = useAuthStore();
